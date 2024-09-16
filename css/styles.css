@@ -339,10 +339,21 @@ width: 100vw;
 
 }
 
+.card-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
 
 
 
-
+@media (min-width:501px){
+    .card-all{
+        flex-direction: row;
+    }
+}
 
 
 footer{
